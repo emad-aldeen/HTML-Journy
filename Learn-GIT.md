@@ -44,19 +44,28 @@ And thats What called **A-C-P** (add - commit - push)
 
 -  `fatal: Authentication failed for 'https://github.com/username/repoName.git/' :` 
 <br>
-<br> ![logo]("https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png")<br>
+<br>
+ ![logo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)<br>
+
 *you had to double cheak on your input username and password*
 <br>
 <br>
 <br>
 -  `error: failed to push some refs to 'https://github.com/username/repoName.git/'` 
 <br>
-<br> ![logo]("https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png")<br>
+<br>
+ ![logo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)<br>
+
 *it hapend when you edit on files from git hub website and want to push somethings, you have first to pull changes to your local pc by **`git pull origin master`**
 and then re type the command `git push ...`*
  <br>
  <br>
  <hr>
 
-you can contact me any time :
-<a href="https://github.com/3madov-77"> <img href="https://camo.githubusercontent.com/338c94ae4c561c07911004dffb4455bf39f10155/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6c6f676f735f706167652f4769744875622d4d61726b2e706e67"></a> Or [Here](https://github.com/3madov-77)
+## ***you can contact me any time :***
+
+[![alt text](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "Click ME")](https://github.com/3madov-77)
+
+ Or [Here](https://github.com/3madov-77)
+
+ <hr>
