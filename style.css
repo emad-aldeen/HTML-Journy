@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*************************************************************************/
+/***** the nav bar *****/
+.menu {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#7d7e7d 0%,
+		#0e0e0e 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(
+			startColorstr='#7d7e7d',
+			endColorstr='#0e0e0e',
+			GradientType=0
+		); /* IE6-9 */
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	height: 60px;
+	box-shadow: -1px 15px 50px gray;
+	position: fixed;
+}
+.menu > ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;
+}
+.menu > ul > li {
+    font: 1.03em "Open Sans", Sans-serif;
+	float: left;
+}
+.menu-item a {
+	display: inline-block;
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+    text-decoration: none;
+    
+}
+.menu-item:hover {
+	background-color: #ff0055;
+}
+
+/***********************************************/
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/885/782/480/hacking-skull-binary-gray-background-hd-wallpaper-preview.jpg);
+    background-size: 95%;
+    background-attachment: fixed;
+}
+
+/********* Head lines ***************/
+
+h1 {
+    font-size: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: red;
+}
+h2 {
+    background-color: brown;
+    font-size: 40px;
+    color: blue;
+    margin-top: 10px;
+}
+h3 {
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+/************ imgs *************/
+img {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+}
+
+/************ Paragrphs *************/
+.pargrphs {
+    margin-left: 25%;
+    width: 50%;
+    background-color: cornsilk;
+    border: 10px dotted gray;
+    text-align: center;
+    font-size: 30px;
+
+}
