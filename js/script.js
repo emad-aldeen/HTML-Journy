@@ -10,7 +10,7 @@ if (hourNow >= 20) {
         if (z == true) {
             var y = prompt("Whats your Name?")
             if (y == "samer" || y == "saad") {
-                alert('Welcome ' + y ' glad to see you agin .. :)');
+                alert('Welcome ' + y + " glad to see you agin .. :)");
             } else {
                 window.location = "sleep.html";
             }
