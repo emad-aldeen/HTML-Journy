@@ -57,6 +57,7 @@ body {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/885/782/480/hacking-skull-binary-gray-background-hd-wallpaper-preview.jpg);
     background-size: 95%;
     background-attachment: fixed;
+    background-color: black;
 }
 
 /********* Head lines ***************/
@@ -87,6 +88,10 @@ h3 {
     margin-top: 10px;
 
 }
+h4 {
+    font-size: 30px;
+    /*padding-left: 50px;*/
+}
 
 /************ imgs *************/
 img {
@@ -106,4 +111,19 @@ img {
     text-align: center;
     font-size: 30px;
 
+}
+/***********cheak Boxes*****************/
+#cheakBoxes {
+    padding-right: 50px;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    background-color: cornsilk;
+    border: 5px solid black;
+}
+#cheakBoxes label {
+    padding-left: 20%;
+}
+#cheakBoxes input {
+    size: 20%;
 }
