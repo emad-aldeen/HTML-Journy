@@ -9,7 +9,7 @@ if (hourNow >= 20) {
         var z = confirm("So .. Are you Instructer or TA?")
         if (z == true) {
             var y = prompt("Whats your Name?")
-            if (y == "samer" || y == "saad") {
+            if (y == "samer" || y == "saad" || y == "barah") {
                 alert('Welcome ' + y + " glad to see you agin .. :)");
             } else {
                 window.location = "sleep.html";
@@ -21,7 +21,12 @@ if (hourNow >= 20) {
 } else {
     alert("this weebsite not for -17 !!");
     var age = prompt('So what is your age?');
-
+    parseInt(age);
+    console.log(typeof age);
+    while (isNaN(age)) {
+        age = prompt("Sirusly man? -_-");
+    }
+    //while (typeof age !=== Number) {
     if (age <= 17) {
         window.location = "byby.html";
     } else {
@@ -29,7 +34,6 @@ if (hourNow >= 20) {
 
         alert(" im seeing you now O_O ")
     }
-
 }
 
 
@@ -60,3 +64,29 @@ function newfunc2() {
         document.body.style.background = '';
     }
 };
+
+var text;
+var ass = document.getElementById("aside2");
+
+function funcS() {
+    text = document.getElementById("myTextarea").value;
+
+    var tag = document.createElement("p");
+    var text1 = document.createTextNode(text);
+    tag.appendChild(text1);
+    var element = document.getElementById("aside2");
+    element.setAttribute("class", "speech-bubble");
+    element.appendChild(tag);
+}
+/*
+var b = "samer";
+parseInt(b);
+console.log(b);
+    var add = document.createElement('p');
+    var node = document.createTextNode('text');
+    var add2 = add.appendChild(node);
+    var att = document.createAttribute('class');
+    att.value = "speech-bubble";
+    var add3 = add2.appendChild(att);
+    var ass = document.getElementById("aside2");
+    ass.appendChild(add3);*/

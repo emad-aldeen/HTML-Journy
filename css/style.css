@@ -62,7 +62,7 @@ body {
 
 /********* Head lines ***************/
 
-h1 {
+#mH1 {
     font-size: 100px;
     background-color: black;
     display: inline-block;
@@ -71,6 +71,11 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     color: red;
+}
+#asH1 {
+    text-align: center;
+    border: 5px dotted red;
+    margin-bottom: 20px;
 }
 h2 {
     background-color: brown;
@@ -126,4 +131,51 @@ img {
 }
 #cheakBoxes input {
     size: 20%;
+}
+/**************** aside ***********/
+#aside {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: white;
+    width: 20%;
+    /*height: 80%;*/
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 40px;
+    padding-top: 20px;
+    border: 5px solid black;
+}
+#aside button {
+    margin-bottom: 3px;
+    margin-left: 80%;
+}
+       /********* bubbles ******/
+.speech-bubble {
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: 19px;
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+.newreview {
+    color: green;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -9.5px;
+	margin-bottom: -19px;
 }
