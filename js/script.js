@@ -66,7 +66,7 @@ function newfunc2() {
 };
 
 var text;
-var ass = document.getElementById("aside2");
+var nvm = document.getElementById("aside2");
 
 function funcS() {
     text = document.getElementById("myTextarea").value;
