@@ -78,18 +78,19 @@ function funcS() {
     element.appendChild(tag);
 }
 
-
 function order3() {
     var tag2 = document.createElement("div");
-    var text2 = document.createTextNode('your order:');
-    tag2.appendChild(text2);
-    // var element2 = document.getElementById("ordercon");
     tag2.setAttribute("class", "ordercon2");
+    tag2.innerHTML = "your order:";
+    /*var text2 = document.createTextNode('your order:');
+    tag2.appendChild(text2);*/
+    // var element2 = document.getElementById("ordercon");
     // tag2.appendChild(tag3);
 
     var tag3 = document.createElement("script");
-    var text3 = document.createTextNode('document.write(order());');
-    tag3.appendChild(text3);
+    tag3.innerHTML = "order();";
+    /*var text3 = document.createTextNode('document.write(order());');
+    tag3.appendChild(text3);*/
 
     tag2.appendChild(tag3);
 
@@ -99,11 +100,12 @@ function order3() {
 
 
 
-function order() {
+var order = function () {
     var order2 = prompt("How many hats you want?");
     var item = '';
-    parseInt(order2);
+    //parseInt(order2);
     for (var i = 0; i < order2; i++) {
+        console.log(i);
         item = item + '<img src="Pics/picture14252643624297.png">';
     }
     alert("we will dilever it 4 you.. :_:");
