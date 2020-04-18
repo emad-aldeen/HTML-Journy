@@ -54,7 +54,7 @@
 /***********************************************/
 
 body {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/885/782/480/hacking-skull-binary-gray-background-hd-wallpaper-preview.jpg);
+    background-image: url(https://lh3.googleusercontent.com/proxy/a4sOcy5dMGqrVyd8Kk1tBrMx3KqJra1tTZrL97NqahLUDclz3cH1o1kXsMg2R4tGT-WB6lLdHMjrgNNnhVQTGUnupYX_x_67ago_VmSbSIyXR1EX3PHPslqHsGULeFJQkg);
     background-size: 95%;
     background-attachment: fixed;
     background-color: black;
@@ -178,4 +178,19 @@ img {
 	border-left: 0;
 	margin-left: -9.5px;
 	margin-bottom: -19px;
+}
+/************* order container ****************/
+.ordercon2 {
+    padding-right: 50px;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    background-color: navy;
+    border: 2px solid black;
+}
+.ordercon2 img {
+    padding-right: 5px;
+    display: inline;
+    width: 100px;
+    height: 100px;
 }

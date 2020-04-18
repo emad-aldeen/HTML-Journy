@@ -22,11 +22,10 @@ if (hourNow >= 20) {
     alert("this weebsite not for -17 !!");
     var age = prompt('So what is your age?');
     parseInt(age);
-    console.log(typeof age);
     while (isNaN(age)) {
         age = prompt("Sirusly man? -_-");
     }
-    //while (typeof age !=== Number) {
+
     if (age <= 17) {
         window.location = "byby.html";
     } else {
@@ -78,6 +77,40 @@ function funcS() {
     element.setAttribute("class", "speech-bubble");
     element.appendChild(tag);
 }
+
+
+function order3() {
+    var tag2 = document.createElement("div");
+    var text2 = document.createTextNode('your order:');
+    tag2.appendChild(text2);
+    // var element2 = document.getElementById("ordercon");
+    tag2.setAttribute("class", "ordercon2");
+    // tag2.appendChild(tag3);
+
+    var tag3 = document.createElement("script");
+    var text3 = document.createTextNode('document.write(order());');
+    tag3.appendChild(text3);
+
+    tag2.appendChild(tag3);
+
+    var ordercon1 = document.getElementById("ordercon");
+    ordercon1.appendChild(tag2);
+}
+
+
+
+function order() {
+    var order2 = prompt("How many hats you want?");
+    var item = '';
+    parseInt(order2);
+    for (var i = 0; i < order2; i++) {
+        item = item + '<img src="Pics/picture14252643624297.png">';
+    }
+    alert("we will dilever it 4 you.. :_:");
+    return item;
+}
+
+
 /*
 var b = "samer";
 parseInt(b);
@@ -90,3 +123,7 @@ console.log(b);
     var add3 = add2.appendChild(att);
     var ass = document.getElementById("aside2");
     ass.appendChild(add3);*/
+
+/*for (var i = 0; i < 8; i++) {
+    console.log('index' + i);
+}*/
